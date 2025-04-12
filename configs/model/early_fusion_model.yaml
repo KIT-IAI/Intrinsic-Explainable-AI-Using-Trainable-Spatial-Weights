@@ -1,0 +1,13 @@
+defaults:
+  - encoder: flatten_encoder
+  - fusioner: early_fusioner
+  - optimizer: adam
+  - scheduler: lr_scheduler
+
+_target_: src.models.energy_forecasting.ForecastingModel
+
+forecast_horizon: ${forecast_horizon}
+compile: false
+debug: ${verbose}
+output_dir: ${paths.output_dir}
+lr: ${lr}

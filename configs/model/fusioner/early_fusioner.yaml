@@ -1,0 +1,3 @@
+_target_: src.models.energy_forecasting.fusioner.EarlyFusioner
+fusion: concat
+forecast_horizon: ${forecast_horizon}

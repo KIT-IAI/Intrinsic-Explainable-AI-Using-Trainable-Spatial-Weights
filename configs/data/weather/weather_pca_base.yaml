@@ -1,0 +1,4 @@
+_target_: src.datasets.weather.WeatherPCADataset
+
+n_components: 0.98
+save_dir: ${paths.output_dir}

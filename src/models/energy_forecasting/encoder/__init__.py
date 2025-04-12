@@ -1,0 +1,1 @@
+from src.models.energy_forecasting.encoder.encoding_latent import LatentEncoder

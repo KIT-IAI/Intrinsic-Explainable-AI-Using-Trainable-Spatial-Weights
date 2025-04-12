@@ -1,0 +1,7 @@
+_target_: src.datasets.energy.OPSDDataset
+_partial_: True
+data_path: ${paths.opsd_data_dir}/opsd.csv
+targets: ${targets}
+historical_lag: ${historical_lag}
+forecast_horizon: ${forecast_horizon}
+normalize_method: standard

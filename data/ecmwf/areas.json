@@ -1,0 +1,178 @@
+{
+    "eu": {
+        "latitude": [35, 71.5],
+        "longitude": [-12, 32]
+    },
+    "no": {
+        "latitude": [57.5, 71.5],
+        "longitude": [4, 32]
+    },
+    "no_no1": {
+        "latitude": [58.5, 63],
+        "longitude": [7, 13.5]
+    },
+    "no_no2": {
+        "latitude": [57.5, 61.5],
+        "longitude": [4, 11.5]
+    },
+    "no_no3": {
+        "latitude": [61.5, 66],
+        "longitude": [4, 15]
+    },
+    "no_no4": {
+        "latitude": [64.5, 71.5],
+        "longitude": [10, 32]
+    },
+    "no_no5": {
+        "latitude": [59, 62.5],
+        "longitude": [4, 9.5]
+    },
+    "se": {
+        "latitude": [54.5, 69.5],
+        "longitude": [10, 24.5]
+    },
+    "fi": {
+        "latitude": [59, 70.5],
+        "longitude": [18.5, 32]
+    },
+    "ie": {
+        "latitude": [51.25, 55.75],
+        "longitude": [-11, -5.5]
+    },
+    "gb": {
+        "latitude": [49.5, 61],
+        "longitude": [-8, 2]
+    },
+    "dk": {
+        "latitude": [54, 58],
+        "longitude": [7.5, 13]
+    },
+    "lt": {
+        "latitude": [53.5, 56.5],
+        "longitude": [20.5, 27]
+    },
+    "lv": {
+        "latitude": [55.5, 58.5],
+        "longitude": [20.5, 28.5]
+    },
+    "ee": {
+        "latitude": [57.5, 60],
+        "longitude": [21.5, 28.5]
+    },
+    "nl": {
+        "latitude": [50.5, 54],
+        "longitude": [3, 7.5]
+    },
+    "de": {
+        "latitude": [47, 55.5],
+        "longitude": [5.5, 15.5]
+    },
+    "de_50hertz": {
+        "latitude": [50, 55],
+        "longitude": [9.5, 15]
+    },
+    "de_amprion": {
+        "latitude": [47, 53],
+        "longitude": [5.5, 11.5]
+    },
+    "de_tennet": {
+        "latitude": [47, 55.5],
+        "longitude": [6.5, 14.5]
+    },
+    "de_transnetbw": {
+        "latitude": [47, 50],
+        "longitude": [7, 11]
+    },
+    "pl": {
+        "latitude": [49, 55],
+        "longitude": [14, 24]
+    },
+    "be": {
+        "latitude": [49.5, 51.5],
+        "longitude": [2.5, 6.5]
+    },
+    "lu": {
+        "latitude": [49.25, 50.25],
+        "longitude": [5.5, 6.75]
+    },
+    "cz": {
+        "latitude": [48.25, 51.25],
+        "longitude": [12, 19]
+    },
+    "sk": {
+        "latitude": [47.5, 49.75],
+        "longitude": [16.5, 22.75]
+    },
+    "fr": {
+        "latitude": [42, 51.5],
+        "longitude": [-5.5, 8.5]
+    },
+    "ch": {
+        "latitude": [45.75, 48],
+        "longitude": [6, 10.75]
+    },
+    "at": {
+        "latitude": [46.25, 49.25],
+        "longitude": [9.25, 17.25]
+    },
+    "hu": {
+        "latitude": [45.5, 48.75],
+        "longitude": [16, 23]
+    },
+    "ro": {
+        "latitude": [43.5, 48.5],
+        "longitude": [20, 30.25]
+    },
+    "it": {
+        "latitude": [36, 47.5],
+        "longitude": [6.5, 19]
+    },
+    "it_nord": {
+        "latitude": [43.5, 47.5],
+        "longitude": [6.5, 14]
+    },
+    "it_cnor": {
+        "latitude": [42, 44.5],
+        "longitude": [9.5, 14.5]
+    },
+    "it_csud": {
+        "latitude": [40, 43],
+        "longitude": [11, 16]
+    },
+    "it_sud": {
+        "latitude": [37.5, 43],
+        "longitude": [13, 19]
+    },
+    "it_sard": {
+        "latitude": [38.5, 41.5],
+        "longitude": [8, 10]
+    },
+    "it_sici": {
+        "latitude": [36.5, 39],
+        "longitude": [12, 16]
+    },
+    "si": {
+        "latitude": [45.25, 47],
+        "longitude": [13.25, 16.75]
+    },
+    "hr": {
+        "latitude": [42, 46.75],
+        "longitude": [13, 19.75]
+    },
+    "bg": {
+        "latitude": [41, 44.5],
+        "longitude": [22, 29]
+    },
+    "pt": {
+        "latitude": [36.5, 42.25],
+        "longitude": [-10, -6]
+    },
+    "es": {
+        "latitude": [35.5, 44.5],
+        "longitude": [-10, 4]
+    },
+    "gr": {
+        "latitude": [35, 42],
+        "longitude": [19, 28.5]
+    }
+}

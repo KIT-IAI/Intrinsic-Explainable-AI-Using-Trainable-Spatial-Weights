@@ -1,0 +1,11 @@
+_target_: src.models.energy_forecasting.encoder.LatentEncoder
+energy_architecture: fcn
+latent_energy_size: ${forecast_horizon}
+weather_architecture: flatten
+latent_weather_size: null
+weather_horizon: null
+upper_left: ${data.weather.upper_left}
+lower_right: ${data.weather.lower_right}
+scaling: ${data.weather.scaling}
+calendar_architecture: fcn
+latent_calendar_size: ${forecast_horizon}

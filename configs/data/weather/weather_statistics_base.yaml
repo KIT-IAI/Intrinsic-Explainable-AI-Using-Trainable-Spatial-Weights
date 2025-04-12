@@ -1,0 +1,7 @@
+_target_: src.datasets.weather.WeatherStatisticsDataset
+
+weather_statistics:
+  - 'mean'
+  - 'std'
+  - 'min'
+  - 'max'

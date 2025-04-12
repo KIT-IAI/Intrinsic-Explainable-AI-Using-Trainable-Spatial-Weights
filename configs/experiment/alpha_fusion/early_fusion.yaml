@@ -1,0 +1,11 @@
+# @package _global_
+
+defaults:
+  - alpha_fusion/base
+  - override /model: early_fusion_model
+
+exp_name: early_fusion
+
+tags:
+  - experiment
+  - early_fusion

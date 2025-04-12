@@ -1,0 +1,5 @@
+defaults:
+  - era5
+  - weather_pca_base
+
+weather_source: 'era5'

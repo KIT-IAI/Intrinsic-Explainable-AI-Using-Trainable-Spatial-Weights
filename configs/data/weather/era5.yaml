@@ -1,0 +1,10 @@
+_target_: src.datasets.weather.ERA5Dataset
+_partial_: True
+data_path: ${paths.ecmwf_data_dir}/era5_25/*.h5
+upper_left: ${get_coords:0}
+lower_right: ${get_coords:1}
+scaling: 0.25
+weather_vars: ${weather_targets}
+weather_horizon: ${add:${forecast_horizon},3}
+normalize_method: 'standard'
+weather_stats_path: ${paths.ecmwf_data_dir}/statistics.json

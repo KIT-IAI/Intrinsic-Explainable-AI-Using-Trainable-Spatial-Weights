@@ -1,0 +1,71 @@
+# @package _global_
+
+defaults:
+  - override /data/energy: opsd
+  - override /data/calendar: point
+  - override /callbacks: default
+  - override /logger: wandb # set logger here or use command line (e.g. `python train.py logger=tensorboard`)
+  - override /trainer: default
+
+# task name, determines output directory path
+task_name: exp_alpha_fusion
+
+data:
+  weather:
+    weather_horizon: ${forecast_horizon}
+
+model:
+  encoder:
+    energy_architecture: fcn
+    latent_energy_size: ${forecast_horizon}
+    weather_architecture: fcn
+    latent_weather_size: ${forecast_horizon}
+    weather_horizon: ${data.weather.weather_horizon}
+    calendar_architecture: null
+    latent_calendar_size: null
+
+lr: 1e-3
+
+historical_lag: 168
+forecast_horizon: 72
+
+weather_vars:
+  load: ['t2m']
+  solar: ['ssrd']
+  wind: ['u+v']
+  wind_offshore: ['u+v']
+  wind_onhore: ['u+v']
+weather_targets: ${get_weather_targets:${targets},${weather_vars}}
+
+train_start: '2015-01-08'
+train_end: '2017-12-31'
+val_start: '2018-01-01'
+val_end: '2018-12-31'
+test_start: '2019-01-01'
+test_end: '2019-12-31'
+
+batch_size: 128
+num_workers: 16
+
+# set False to skip model training
+train: True
+
+# evaluate on test set, using best model weights achieved during training
+# lightning chooses best weights based on the metric specified in checkpoint callback
+test: True
+
+# simply provide checkpoint path to resume training
+ckpt_path: null
+
+verbose: False
+
+trainer:
+  min_epochs: 25
+  max_epochs: 250
+
+logger:
+  wandb:
+    tags: ${tags}
+    group: alpha_fusion
+  aim:
+    experiment: alpha_fusion

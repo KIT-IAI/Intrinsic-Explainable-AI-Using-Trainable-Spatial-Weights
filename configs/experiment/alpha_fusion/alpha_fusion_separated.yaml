@@ -1,0 +1,16 @@
+# @package _global_
+
+defaults:
+  - alpha_fusion/base
+  - override /model: alpha_separated_fusion_model
+
+exp_name: alpha_fusion_separated
+
+model:
+  encoder:
+    weather_architecture: null
+    latent_weather_size: null
+
+tags:
+  - experiment
+  - alpha_fusion

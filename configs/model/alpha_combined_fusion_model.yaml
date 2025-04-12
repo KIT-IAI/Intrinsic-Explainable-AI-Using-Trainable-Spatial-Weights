@@ -1,0 +1,16 @@
+defaults:
+  - encoder: energy_calendar_encoder
+  - fusioner: alpha_combined_fusioner
+  - optimizer: adam
+  - scheduler: lr_scheduler
+
+_target_: src.models.energy_forecasting.ForecastingModel
+
+forecast_horizon: ${forecast_horizon}
+compile: false
+debug: ${verbose}
+output_dir: ${paths.output_dir}
+lr: ${lr}
+
+encoder:
+  weather_architecture: null

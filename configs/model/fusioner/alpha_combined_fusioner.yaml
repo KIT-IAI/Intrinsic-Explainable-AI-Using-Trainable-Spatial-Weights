@@ -1,0 +1,6 @@
+_target_: src.models.energy_forecasting.fusioner.CombinedAlphaFusioner
+forecast_horizon: ${forecast_horizon}
+upper_left: ${data.weather.upper_left}
+lower_right: ${data.weather.lower_right}
+scaling: ${data.weather.scaling}
+dropout: 0.0

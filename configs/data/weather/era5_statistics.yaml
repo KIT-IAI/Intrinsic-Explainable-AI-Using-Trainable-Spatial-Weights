@@ -1,0 +1,5 @@
+defaults:
+  - era5
+  - weather_statistics_base
+
+weather_source: 'era5'
